@@ -1,0 +1,10 @@
+{
+  "name": "interdev",
+  "version": "0.1.0",
+  "description": "Developer tooling for Claude Code — MCP CLI interaction and tool discovery.",
+  "author": { "name": "MK", "email": "mistakeknot@vibeguider.org" },
+  "repository": "https://github.com/mistakeknot/interdev",
+  "license": "MIT",
+  "keywords": ["mcp", "cli", "developer-tools", "tool-discovery"],
+  "skills": ["./skills/mcp-cli"]
+}
