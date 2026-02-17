@@ -1,0 +1,15 @@
+{
+  "module_summary": "Interdev provides MCP and CLI-oriented developer workflows for discoverability, command execution, and environment tooling.",
+  "roadmap": {
+    "now": [
+      {"id": "IDEV-N1", "title": "Reduce friction for MCP tool discovery when tool metadata drifts.", "priority": "P1"}
+    ],
+    "next": [
+      {"id": "IDEV-N2", "title": "Improve command suggestion relevance using Clavain action tags and module context.", "priority": "P2"},
+      {"id": "IDEV-N3", "title": "Add Codex-friendly bootstrap recipes for local developer toolchains.", "priority": "P2"},
+      {"id": "IDEV-L1", "title": "Create self-healing tooling profiles for common environment breakages.", "priority": "P2"}
+    ],
+    "later": [
+    ]
+  }
+}
