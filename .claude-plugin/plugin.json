@@ -1,7 +1,7 @@
 {
   "name": "interdev",
   "version": "0.2.0",
-  "description": "Developer tooling for Claude Code — MCP CLI interaction, skill authoring, plugin development, and Claude Code reference.",
+  "description": "Developer tooling for Claude Code — MCP CLI interaction and Claude Code reference.",
   "author": {
     "name": "MK",
     "email": "mistakeknot@vibeguider.org"
@@ -12,13 +12,10 @@
     "mcp",
     "cli",
     "developer-tools",
-    "tool-discovery",
-    "plugin-development",
-    "skill-authoring"
+    "tool-discovery"
   ],
   "skills": [
     "./skills/mcp-cli",
-    "./skills/working-with-claude-code",
-    "./skills/developing-claude-code-plugins"
+    "./skills/working-with-claude-code"
   ]
 }
