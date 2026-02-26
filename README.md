@@ -4,7 +4,7 @@ Developer tooling for Claude Code: the meta-plugin for building plugins.
 
 ## What this does
 
-interdev bundles everything you need for Claude Code plugin development into one place: MCP CLI interaction patterns, skill authoring guidance, plugin lifecycle management, and 37 reference documents covering Claude Code internals.
+interdev provides MCP CLI interaction patterns and Claude Code reference documentation. For skill authoring, see [interskill](https://github.com/mistakeknot/interskill). For plugin development, see [interplug](https://github.com/mistakeknot/interplug).
 
 The MCP CLI skill is particularly useful: it provides a discovery-first workflow for interacting with MCP servers via the mcptools CLI. Instead of guessing at tool names, you walk through tools → resources → prompts → call.
 
@@ -26,21 +26,15 @@ Then install the plugin:
 
 - **mcp-cli**: On-demand MCP server interaction via mcptools CLI
 - **working-with-claude-code**: Claude Code CLI reference and patterns
-- **developing-claude-code-plugins**: Plugin creation, testing, and release
-- **create-agent-skills**: Agent and skill authoring guidance
-- **writing-skills**: SKILL.md structure and best practices
+
+## Companion Plugins
+
+- **interskill**: Skill authoring (create + audit)
+- **interplug**: Plugin development (create + validate + troubleshoot)
 
 ## Usage
 
 ```
-"create a new Claude Code plugin"
-"how do I add an MCP server to my plugin?"
-"write a skill for code review"
-```
-
-Or invoke skills directly when you know what you need:
-
-```
 /interdev:mcp-cli
-/interdev:writing-skills
+/interdev:working-with-claude-code
 ```
