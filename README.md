@@ -1,6 +1,6 @@
 # interdev
 
-Developer tooling for Claude Code: the meta-plugin for building plugins.
+Developer tooling for Claude Code, Codex, and Kimi Code: the meta-plugin for building plugins.
 
 ## What this does
 
