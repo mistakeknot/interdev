@@ -1,0 +1,18 @@
+{
+  "name": "interdev",
+  "version": "0.2.0",
+  "description": "Developer tooling for Claude Code — MCP CLI interaction and Claude Code reference.",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "cli",
+    "developer-tools",
+    "tool-discovery"
+  ],
+  "author": "MK",
+  "interface": {
+    "displayName": "interdev",
+    "shortDescription": "Developer tooling for Claude Code — MCP CLI interaction and Claude Code reference."
+  },
+  "skills": "./skills/"
+}
