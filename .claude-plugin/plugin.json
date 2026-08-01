@@ -1,6 +1,6 @@
 {
   "name": "interdev",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Developer tooling for Claude Code — MCP CLI interaction and Claude Code reference.",
   "author": {
     "name": "MK",
