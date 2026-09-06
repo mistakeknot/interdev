@@ -2,6 +2,11 @@
 
 Reference library for Claude Code official documentation — plugins, hooks, MCP servers, skills, configuration, and integrations.
 
+Resolve the installed skill symlink and set `SKILL_DIR` to its actual directory.
+Read this skill's `references/` there, independently of the target project's
+working directory. Bundled docs are a snapshot; verify changing details against
+current official documentation. Refresh the snapshot only within authorized scope.
+
 ## When to Invoke
 
 Creating/configuring plugins, MCP servers, hooks, or skills. Troubleshooting Claude Code. Setting up integrations (VS Code, JetBrains, CI/CD).
@@ -39,7 +44,7 @@ For broad topics, start with the overview doc then drill into specifics. For unc
 ## Updating Docs
 
 ```bash
-node ~/.claude/skills/working-with-claude-code/scripts/update_docs.js
+node "$SKILL_DIR/scripts/update_docs.js"
 ```
 
 Fetches latest from docs.claude.com. Run when docs seem outdated or new features are released.

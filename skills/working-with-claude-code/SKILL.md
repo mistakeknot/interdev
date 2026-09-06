@@ -5,6 +5,12 @@ description: Use when working with Claude Code CLI, plugins, hooks, MCP servers,
 
 # Working with Claude Code
 
+In Codex, resolve this `SKILL.md` symlink and set `SKILL_DIR` to its absolute
+parent directory. Read `references/` and invoke `scripts/update_docs.js` relative
+to that directory, not a hardcoded Claude skills location. The reference corpus
+is a snapshot; when a task depends on current Claude Code behavior, verify the
+relevant official page and disclose any unavailable refresh.
+
 ## Overview
 
 This skill provides complete, authoritative documentation for Claude Code directly from docs.claude.com. Instead of guessing about configuration paths, API structures, or feature capabilities, read the official docs stored in this skill's references directory.
@@ -116,7 +122,7 @@ Use Grep tool to search across all documentation:
 
 ```bash
 pattern: "search term"
-path: ~/.claude/skills/working-with-claude-code/references/
+path: <resolved skill directory>/references/
 ```
 
 ## Updating Documentation
@@ -129,7 +135,7 @@ Run when:
 - Official docs have been updated
 
 ```bash
-node ~/.claude/skills/working-with-claude-code/scripts/update_docs.js
+node "$SKILL_DIR/scripts/update_docs.js"
 ```
 
 The script:
